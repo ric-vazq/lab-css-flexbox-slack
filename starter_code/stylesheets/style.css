@@ -767,7 +767,7 @@ footer small {
     }
     #intro-container {
         width: 50vw;
-        margin-bottom: 20vh; 
+        margin-bottom: 10vh; 
     }
     #intro-container h1 {
         font-weight: bold;
@@ -786,7 +786,7 @@ footer small {
         color: #ECB12F;
     }
     .buttons-reset {
-        height: 10vh;
+        height: 7rem;
         text-transform: uppercase;
         margin-bottom: 2vw; 
         text-align: center;
@@ -808,8 +808,10 @@ footer small {
     }
     #google-sign-up img{
         float: left;
-        height: 7vh;
-        width: 4vw;
+        height: 3rem;
+        padding: 1rem 1rem;
+        margin-left: .5rem;
+        width: auto;
         background-color: white; 
         border-radius: 0.2rem;
     }
@@ -836,8 +838,8 @@ footer small {
         align-items: center;
     }
     #brands-section > p {
-        margin-top: 10vh;
-        font-size: 1.8rem;
+        margin-top: 10rem;
+        font-size: 2.4rem;
         text-transform: uppercase;
     }
     #brand-logos {
@@ -871,17 +873,28 @@ footer small {
         height: 6rem;
         width: auto;
     }
+    .side-by-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #connectedness {
         content: url(../images/connectedness.png);
+        height: 36vh; 
+        width: auto;
     }
-    
     #flex-image {
         content: url(../images/flexibility.png);
-        margin-left: 10vw;
+        height: 36vh;
+        width: auto; 
     }
-    
+    #reverse-flex {
+        flex-direction: row-reverse;
+    }
     #speed {
         content: url(../images/speed.png);
+        height: 36vh; 
+        width: auto;
     }
     .body-images {
         width: 90vw;
@@ -892,15 +905,15 @@ footer small {
         margin: 2rem 0;
     }
     .info-sections {
-        margin: 7vw 20vw;
+        margin: 0 70px;
     }
     .info-sections h2 {
-        font-size: 4.0rem;
+        font-size: 4.8rem;
         margin: 2.5rem auto;
         font-weight: bold;
     }
     .info-sections p {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         margin-right: 5rem;
     
     }
@@ -908,10 +921,9 @@ footer small {
         margin-bottom: 5rem;
     }
     .info-sections a {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         margin: 2rem 0 5rem; 
         color: #2E71A6;
-        font-weight: bold;
         content: "\2192";
     }
     .info-sections a ::after {
@@ -979,11 +991,14 @@ footer small {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-bottom: 15rem;
+        padding-bottom: 5rem; 
+    }
+    #row-flex {
+        display: flex;
     }
     #sales-section h3{
         color: white;
-        margin: 9rem 7rem; 
+        margin: 6rem 3rem; 
         font-size: 6rem;
         font-weight: bold;
     }
@@ -992,14 +1007,15 @@ footer small {
         background-color: white;
         border: #540B51 solid 2px;
         font-weight: bold;
-        width: 80vw;
         font-size: 1.8rem;
+        padding: 2rem 4rem;
+        margin-right: 2rem; 
     }
     #talk-to-sales {
         color: white;
         background-color: #540B51;
         border: white solid 2px;
-        width: 80vw;
+        padding: 2rem 4rem;
         font-size: 1.8rem;
     }
     footer {
@@ -1035,11 +1051,13 @@ footer small {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 5vh;
-        font-size: 1.2rem;
+        margin-top: 2rem;
         list-style: none;
         font: 2.4rem bolder;
         line-height: 5rem;
+    }
+    #final-list li {
+        font-size: 1.4rem;
     }
     #download-link {
         color: #4285F4;
@@ -1064,6 +1082,10 @@ footer small {
         color: lightgray;
         font-size: 1.6rem;
         margin: 0 5vw 10vw; 
+
+    }
+    .fab {
+        width: 3rem; 
     }
     
 }
