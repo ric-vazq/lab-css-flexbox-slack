@@ -19,7 +19,7 @@
 
 <body>
   <nav>
-    <div>
+    <div id="logo-and-list">
       <img src="./images/slack-logo.png" alt="Slack logo" id="slack-logo"/>
 
       <ul id="listed-elements">
@@ -28,6 +28,9 @@
         </li>
         <li>
           <a href="#">Solutions</a>
+        </li>
+        <li>
+          <a href="#">Enterprise</a>
         </li>
         <li>
           <a href="#">Resources</a>
@@ -43,15 +46,15 @@
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button class="nav-buttons">
+      <button class="nav-buttons" id="hamburger-button">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul hidden id="sign-in-block">
         <li>
           <a href="#">Sign in</a>
         </li>
-        <li>
+        <li id="btn-free">
           <a href="#">Try for free</a>
         </li>
       </ul>
